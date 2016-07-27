@@ -2,7 +2,7 @@ var test = require('tape')
 var hello = require('../routes')
 
 test('Testing hello', function (t){
-  var expected = 'Hello World!'
+  var expected = 'Hello, World!'
   var res = {
     send: send
   }
